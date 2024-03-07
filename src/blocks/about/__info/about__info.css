@@ -1,0 +1,12 @@
+.about__info {
+  display: flex;
+  flex-direction: column;
+
+}
+@media screen and (max-width: 480px) {
+  .about__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

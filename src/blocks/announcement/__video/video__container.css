@@ -1,0 +1,5 @@
+.video__container{
+  object-fit: cover;
+  inline-size: 100%;
+  block-size: 315px;
+}

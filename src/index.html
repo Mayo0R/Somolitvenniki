@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mesto</title>
+</head>
+<body class="page">
+<div class="page__content page__section">
+  <header class="header">
+    <img src="<%=require('./images/header.png')%>" alt="Логотип проекта масто" class="header__background"> 
+  </header>
+  <main class="content">
+    <section class="about page__section">
+      <div class="about__info">
+        <h1 class="about__title">О НАС</h1>
+        <p class="about__description">ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ</p>
+      </div>
+    </section>
+    <section class="announcement page__section">
+      <div class="announcement__info">
+        <h1 class="announcement__title">АНОНС</h1>
+        <p class="announcement__description"> Христос посреди нас дорогие Сомолитвенники, братья и сестры! </p>
+        <p class="announcement__description"> Вы находитесь на ресурсах соборного объединения Сомолитвенники.РФ, а если вы здесь значит это не случайность и Вы выбрали путь жизни со Христом в церковном единстве. Каждый из Вас начал свой путь с молитвы и наступил тот момент когда вы спросили себя а что дальше?</p>
+      </div>
+      <div class="announcement__video">
+        <iframe class="video__container" src="https://www.youtube.com/embed/5hD9vFv3xQU?si=WHTMWpgTZF5qKS2E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section class="places page__section">
+      <ul class="places__list">
+      </ul>
+    </section>
+  </main>
+  <footer class="footer page__section">
+    <p class="footer__copyright">
+      © 2024 СОМОЛИТВЕННИКИ.РФ
+    </p>
+  </footer>
+  <div class="popup popup_type_image popup_is-animated">
+    <div class="popup__content popup__content_content_image">
+      <button type="button" class="popup__close"></button>
+      <img src="" alt="" class="popup__image">
+      <p class="popup__caption"></p>
+    </div>
+  </div>
+</div>
+
+<template id="card-template">
+  <li class="places__item card">
+    <img class="card__image" src="" alt="" />
+    <div class="card__description">
+      <h2 class="card__title"></h2>
+    </div>
+  </li>
+</template>
+</body>
+</html>

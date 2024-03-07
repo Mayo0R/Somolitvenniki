@@ -1,0 +1,10 @@
+.announcement__video{
+    inline-size: 100%;
+    position: relative;
+}
+@media screen and (max-width: 480px) {
+    .announcement__title {
+      min-width: 201px;
+    }
+  }
+  

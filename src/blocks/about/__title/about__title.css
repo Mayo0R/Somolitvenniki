@@ -1,0 +1,30 @@
+.about__title {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+}
+
+@media screen and (max-width: 740px) {
+  .about__title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .about__title {
+    font-size: 27px;
+    line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about__title {
+    min-width: 201px;
+    margin: 5px 0px 5px 0px;
+  }
+}

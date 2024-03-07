@@ -1,0 +1,13 @@
+    .announcement__info {
+      width: 100%; 
+      padding-inline-end: 15px;
+    }
+
+    @media screen and (max-width: 568px) {
+      .announcement__info {
+        padding-inline-end: 0px;
+        padding-block-end: 15px;
+      }
+    }
+    
+    

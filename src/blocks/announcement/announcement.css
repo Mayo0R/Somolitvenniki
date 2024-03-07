@@ -1,0 +1,25 @@
+@import url('./__description/announcement__description.css');
+@import url('./__info/announcement__info.css');
+@import url('./__title/announcement__title.css');
+@import url('./__video/announcement__video.css');
+@import url('./__video/video__container.css');
+
+.announcement {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  padding: 45px 15px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 568px) {
+  .announcement {
+    padding: 20px 0;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+

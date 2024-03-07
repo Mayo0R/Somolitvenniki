@@ -1,0 +1,31 @@
+.announcement__title {
+    width: 100%;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 500;
+    margin: 0;
+    padding-block-end: 20px;
+  }
+  
+  @media screen and (max-width: 740px) {
+    .announcement__title {
+      font-size: 32px;
+      line-height: 38px;
+      padding-block-end: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 568px) {
+    .announcement__title {
+      font-size: 27px;
+      line-height: 33px;
+      padding-block-end: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .announcement__title {
+      min-width: 201px;
+    }
+  }
+  
