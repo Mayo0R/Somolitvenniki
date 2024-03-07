@@ -1,7 +1,7 @@
 {
-  "name": "mesto-project-ff",
+  "name": "somolitvenniki",
   "version": "1.0.0",
-  "description": "В данном проекте работал с файлами JS. Написаны функции добавления, удаления и, соответственно, отображения карточек на странице.",
+  "description": "First web-site somolitvenniki",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
