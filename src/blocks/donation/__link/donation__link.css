@@ -1,0 +1,10 @@
+.donation__link{
+    background-color: #FFD914;
+    color: black;
+    text-decoration: none;
+}
+
+.donation__link:hover{
+    outline: 2px solid black;
+    
+}

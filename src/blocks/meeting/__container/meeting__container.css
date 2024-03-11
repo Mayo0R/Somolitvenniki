@@ -1,0 +1,10 @@
+.meeting__container{
+  padding-block-start: 10px;
+}
+
+@media screen and (max-width: 568px) {
+    .meeting__container {
+        padding-block-start: 5px;
+    }
+  }
+  

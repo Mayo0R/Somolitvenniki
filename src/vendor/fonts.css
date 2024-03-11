@@ -18,3 +18,17 @@
   font-weight: 900;
   src: url("./fonts/Inter-Black.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: 'GilroyR';
+  font-style:  normal;
+  font-weight: 900;
+  src: url("./fonts/Gilroy-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'GilroyB';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("./fonts/Gilroy-Bold.woff2") format("woff2");
+}

@@ -3,13 +3,15 @@
 @import url('./__close/popup__close.css');
 @import url('./__caption/popup__caption.css');
 @import url('./__image/popup__image.css');
+@import url('./__about/popup__about.css');
 
 .popup {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'GilroyR', Arial, sans-serif;
   display: none;
-  align-items: center;
+  padding-block-start: 5%;
+  /*align-items: center;*/
   justify-content: center;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .75);
   position: fixed;
   top: 0;
   left: 0;

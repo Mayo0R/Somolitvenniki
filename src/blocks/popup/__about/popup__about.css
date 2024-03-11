@@ -1,0 +1,13 @@
+.popup__about{
+background: #FFD914;
+min-height: 250px;
+opacity: 0.8;
+padding: 10px;
+border-bottom-right-radius: 25px;
+border-bottom-left-radius: 25px;
+-webkit-border-bottom-right-radius: 25px;
+-webkit-border-bottom-left-radius: 25px;
+-moz-border-bottom-right-radius: 25px;
+-moz-border-bottom-left-radius: 25px;
+overflow-y: auto;
+}

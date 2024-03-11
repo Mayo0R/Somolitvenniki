@@ -1,0 +1,22 @@
+.meeting__description {
+  font-family: 'GilroyR', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  padding-block-end: 5px;
+  padding-block-start: 5px;
+
+}
+
+@media screen and (max-width: 568px) {
+  .meeting__description {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .meeting__description {
+    width: 100%;
+  }
+}

@@ -3,6 +3,7 @@
 export function openModal(popup){ 
   popup.classList.add('popup_is-opened'); 
   document.addEventListener('keydown', closeEsc); 
+  document.body.style.overflow = 'hidden';
 }   
 
 //Функция закрытия поп-апа 
@@ -10,6 +11,7 @@ export function openModal(popup){
 export function closeModal(popup){ 
   popup.classList.remove('popup_is-opened'); 
   document.removeEventListener('keydown', closeEsc); 
+  document.body.style.overflow = '';
 } 
 
 //Функция закрытия по ESC 

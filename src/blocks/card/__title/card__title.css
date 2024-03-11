@@ -1,6 +1,6 @@
 .card__title {
-  max-width: 220px;
-  font-size: 24px;
+  /*max-width: 220px;*/
+  font-size: 22px; /*24*/
   line-height: 29px;
   text-overflow: ellipsis;
   white-space: nowrap;

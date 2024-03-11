@@ -1,0 +1,24 @@
+@import url('./__container/socseti__icons.css');
+@import url('./__icons/socseti__icon.css');
+@import url('./__description/socseti__description.css');
+@import url('./__info/socseti__info.css');
+@import url('./__title/socseti__title.css');
+@import url('./__info/socseti__link.css');
+
+.socseti {
+    font-family: 'GilroyB', Arial, sans-serif;
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 45px 15px 45px 15px;
+    background-color: #FFD914;
+  }
+  
+  @media screen and (max-width: 568px) {
+    .socseti {
+      padding: 20px 0;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

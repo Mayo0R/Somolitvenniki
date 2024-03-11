@@ -1,0 +1,27 @@
+.meeting__place{
+    font-family: 'GilroyR', Arial, sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    background-color: #FFD914;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    
+}
+
+  
+  @media screen and (max-width: 568px) {
+    .meeting__place {
+      font-size: 16px;
+      line-height: 17px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .meeting__place {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+  
+  

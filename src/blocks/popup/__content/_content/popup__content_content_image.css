@@ -1,6 +1,6 @@
 .popup__content_content_image {
-  max-width: 75vw;
-  max-height: 75vh;
+  max-width: 80vw; /*было 75*/
+  max-height: 50vh;/*было 75*/
   height: auto;
   width: auto;
   display: flex;

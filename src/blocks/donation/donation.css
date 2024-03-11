@@ -1,0 +1,28 @@
+@import url('./__image/donation__image.css');
+@import url('./__title/donation__title.css');
+@import url('./__info/donation__info.css');
+@import url('./__info/donation__block.css');
+@import url('./__banks/donation__banks.css');
+@import url('./__description/donation__description.css');
+@import url('./__icons/donation__icon.css');
+@import url('./__link/donation__link.css');
+@import url('./__container/donation__container.css');
+@import url('./__title/donation__title-decsciption.css');
+
+.donation {
+    font-family: 'GilroyB', Arial, sans-serif;
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 45px 15px 45px 15px;
+    background-color: #fff;
+  }
+  
+  @media screen and (max-width: 568px) {
+    .donation {
+      padding: 20px 0;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

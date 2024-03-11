@@ -1,0 +1,19 @@
+.meeting__coordinator {
+  font-family: "GilroyR", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+@media screen and (max-width: 568px) {
+  .meeting__coordinator {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .meeting__coordinator {
+    width: 100%;
+  }
+}
